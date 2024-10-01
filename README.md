@@ -1,2 +1,2 @@
-# portfolio-3d
+# 3d-portfolio
 My new 3D developer portfolio!
