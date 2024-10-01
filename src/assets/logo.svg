@@ -1,0 +1,7 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 600 600">
+  <!-- Darker red circle background -->
+  <circle cx="300" cy="300" r="300" fill="rgb(200,0,0)" />
+  <!-- White letter J in monospace font -->
+  <text x="50%" y="50%" font-size="280" font-family="monospace" fill="white" text-anchor="middle" alignment-baseline="middle">J</text>
+</svg>
