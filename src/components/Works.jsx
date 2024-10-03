@@ -33,7 +33,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link, l
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
               onClick={() => window.open(live_link, "_blank")}
-              className={`${live_link ? "" : "hidden"} white-gradient w-10 h-10 rounded-full flex
+              className={`${live_link ? "" : "hidden"} black-gradient w-10 h-10 rounded-full flex
               justify-center items-center cursor-pointer`}
             >
               <img
@@ -44,8 +44,8 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link, l
             </div>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex
-              justify-center items-center cursor-pointer"
+              className={`${source_code_link ? "" : "hidden"} black-gradient w-10 h-10 rounded-full flex
+              justify-center items-center cursor-pointer`}
             >
               <img
                 src={github}

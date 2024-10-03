@@ -20,15 +20,31 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import java from "./tech/java.png";
+import python from "./tech/python.png";
+import csharp from "./tech/csharp.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import bellzi from "./company/bellzi.jpg";
+import capitalone from "./company/capitalone.png";
+import teabunnystudios from "./company/teabunnystudios.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import colada from "./colada.gif";
+import sqlizer from "./sqlizer.gif"
+import blastertrainingvr from "./blaster_training_vr.gif"
+import calculator from "./calculator.gif";
+import etchasketch from "./etch_a_sketch.gif";
+import nanobiotics from "./nanobiotics.gif";
+import octolog from "./octolog.gif";
+import squarepop from "./square_pop.gif";
+import teatumble from "./tea_tumble.gif";
+import rngee from "./rngee.gif";
 
 import livelink from "./livelink.png";
 
@@ -54,12 +70,28 @@ export {
   tailwind,
   typescript,
   threejs,
+  java,
+  python,
+  csharp,
   meta,
   shopify,
   starbucks,
   tesla,
+  bellzi,
+  capitalone,
+  teabunnystudios,
   carrent,
   jobit,
   tripguide,
+  colada,
+  sqlizer,
+  blastertrainingvr,
+  calculator,
+  etchasketch,
+  nanobiotics,
+  octolog,
+  squarepop,
+  teatumble,
+  rngee,
   livelink
 };

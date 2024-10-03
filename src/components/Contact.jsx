@@ -24,9 +24,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    //
-//
-// pVvAkjigyNFsK1n4P
+
     emailjs.send(
       "service_es55d8m",
       "template_xpa59c5",
