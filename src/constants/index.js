@@ -19,16 +19,10 @@ import {
     java,
     python,
     csharp,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    unity,
     bellzi,
     capitalone,
     teabunnystudios,
-    carrent,
-    jobit,
-    tripguide,
     colada,
     sqlizer,
     blastertrainingvr,
@@ -39,6 +33,9 @@ import {
     squarepop,
     teatumble,
     rngee,
+    parker,
+    vaughn,
+    daniel
 } from "../assets";
 
 export const navLinks = [
@@ -61,10 +58,6 @@ const services = [
         title: "Web Developer",
         icon: web,
     },
-    // {
-    //     title: "React Native Developer",
-    //     icon: mobile,
-    // },
     {
         title: "Backend Developer",
         icon: backend,
@@ -72,6 +65,10 @@ const services = [
     {
         title: "Hobbyist Game Developer",
         icon: creator,
+    },
+    {
+        title: "Lifelong Learner",
+        icon: mobile,
     },
 ];
 
@@ -137,8 +134,8 @@ const technologies = [
         icon: csharp,
     },
     {
-        name: "Python",
-        icon: python,
+        name: "Unity",
+        icon: unity,
     },
 ];
 
@@ -150,9 +147,9 @@ const experiences = [
         iconBg: "#383E56",
         date: "2022 - 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Developing and maintaining web applications using Java Spring Boot and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Implementing highly scalable patterns and automated testing frameworks",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
@@ -163,10 +160,9 @@ const experiences = [
         iconBg: "#E6DEDD",
         date: "2018 - 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Architected the company’s e-commerce webstore and its connections to cloud-based services, such as Shipstation, Amazon FBA, and Quickbooks Enterprise, to decrease order errors and increase efficiency.",
+            "Prototyped an AR app with C# and Unity to enhance the customer experience for product release.",
+            "Conducted beta testing through Testflight prior to deployment and distribution to ensure product integrity."
         ],
     },
     {
@@ -176,10 +172,8 @@ const experiences = [
         iconBg: "#383E56",
         date: "2016 - 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developed indie games using C# and the Unity game engine.",
+            "Participated in Game Jams while designing assets, developing the game, and deploying.",
         ],
     },
 ];
@@ -187,97 +181,31 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+            "Jonathan is extremely hard-working and takes challenges head on. He is determined to do the necessary research to arrive at the optimal solution. ",
+        name: "Parker Steinberg",
+        designation: "Software Engineer",
+        company: "JPMorgan Chase & Co.",
+        image: parker,
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+            "Jonathan is not only an excellent engineer, but he also has exceptional attention to detail, organizational skills, and he’s a natural leader. ",
+        name: "Vaughn Sulit",
+        designation: "Software Engineer",
+        company: "Northspyre",
+        image: vaughn,
     },
     {
         testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+            "He is a highly talented engineer with an impressive ability to quickly pick up new technologies and libraries from reading documentation. ",
+        name: "Daniel Steinbrook",
+        designation: "Software Engineer",
+        company: "",
+        image: daniel,
     },
 ];
 
 const projects = [
-    {
-        name: "Car Rent",
-        description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: carrent,
-        source_code_link: "https://github.com/",
-        live_link: ""
-    },
-    {
-        name: "Job IT",
-        description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-        live_link: "https://github.com"
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
-        live_link: ""
-    },
     {
         name: "Colada",
         description:
@@ -289,7 +217,7 @@ const projects = [
             },
             {
                 name: "pinia",
-                color: "blue-text-gradient",
+                color: "green-text-gradient",
             },
             {
                 name: "tailwind",
@@ -350,11 +278,11 @@ const projects = [
           "A simple VR blaster game inspired by the gameplay of the classic arcade game 'Police Trainer'",
         tags: [
             {
-                name: "unity",
+                name: "csharp",
                 color: "blue-text-gradient",
             },
             {
-                name: "csharp",
+                name: "unity",
                 color: "green-text-gradient",
             },
         ],
@@ -368,11 +296,11 @@ const projects = [
           "A classic \"Shoot 'em up\" created in 3 days during the 2020 Quarantine Jam",
         tags: [
             {
-                name: "unity",
+                name: "csharp",
                 color: "blue-text-gradient",
             },
             {
-                name: "csharp",
+                name: "unity",
                 color: "green-text-gradient",
             },
         ],
@@ -386,11 +314,11 @@ const projects = [
           "Get green. Dodge red.",
         tags: [
             {
-                name: "unity",
+                name: "csharp",
                 color: "blue-text-gradient",
             },
             {
-                name: "csharp",
+                name: "unity",
                 color: "green-text-gradient",
             },
         ],
@@ -404,11 +332,11 @@ const projects = [
           "A \"Falldown\" inspired game",
         tags: [
             {
-                name: "unity",
+                name: "csharp",
                 color: "blue-text-gradient",
             },
             {
-                name: "csharp",
+                name: "unity",
                 color: "green-text-gradient",
             },
         ],
@@ -416,24 +344,24 @@ const projects = [
         source_code_link: "https://github.com/JonHPC/Tea-Tumble",
         live_link: "https://teabunnystudios.itch.io/tea-tumble"
     },
-    {
-        name: "Calculator",
-        description:
-          "A simple toy calculator",
-        tags: [
-            {
-                name: "javascript",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: calculator,
-        source_code_link: "https://github.com/JonHPC/calculator",
-        live_link: "https://jonhpc.github.io/calculator/"
-    },
+    // {
+    //     name: "Calculator",
+    //     description:
+    //       "A simple toy calculator",
+    //     tags: [
+    //         {
+    //             name: "javascript",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "css",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: calculator,
+    //     source_code_link: "https://github.com/JonHPC/calculator",
+    //     live_link: "https://jonhpc.github.io/calculator/"
+    // },
     {
         name: "Etch a Sketch",
         description:
@@ -451,6 +379,24 @@ const projects = [
         image: etchasketch,
         source_code_link: "https://github.com/JonHPC/etch-a-sketch",
         live_link: "https://jonhpc.github.io/etch-a-sketch/"
+    },
+    {
+        name: "Rngee",
+        description:
+          "A simple library for generating random values",
+        tags: [
+            {
+                name: "javascript",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "npm",
+                color: "green-text-gradient",
+            },
+        ],
+        image: rngee,
+        source_code_link: "https://github.com/JonHPC/rngee",
+        live_link: "https://www.npmjs.com/package/rngee"
     },
 ];
 

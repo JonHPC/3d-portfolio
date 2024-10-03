@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import livelink from "./livelink.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -23,30 +24,26 @@ import threejs from "./tech/threejs.svg";
 import java from "./tech/java.png";
 import python from "./tech/python.png";
 import csharp from "./tech/csharp.png";
+import unity from "./tech/unity_logo.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import bellzi from "./company/bellzi.jpg";
 import capitalone from "./company/capitalone.png";
 import teabunnystudios from "./company/teabunnystudios.jpg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-import colada from "./colada.gif";
-import sqlizer from "./sqlizer.gif"
-import blastertrainingvr from "./blaster_training_vr.gif"
-import calculator from "./calculator.gif";
-import etchasketch from "./etch_a_sketch.gif";
-import nanobiotics from "./nanobiotics.gif";
-import octolog from "./octolog.gif";
-import squarepop from "./square_pop.gif";
-import teatumble from "./tea_tumble.gif";
-import rngee from "./rngee.gif";
+import colada from "./work/colada.gif";
+import sqlizer from "./work/sqlizer.gif"
+import blastertrainingvr from "./work/blaster_training_vr.gif"
+import calculator from "./work/calculator.gif";
+import etchasketch from "./work/etch_a_sketch.gif";
+import nanobiotics from "./work/nanobiotics.gif";
+import octolog from "./work/octolog.gif";
+import squarepop from "./work/square_pop.gif";
+import teatumble from "./work/tea_tumble.gif";
+import rngee from "./work/rngee.gif";
 
-import livelink from "./livelink.png";
+import parker from "./people/parker.jpeg";
+import vaughn from "./people/vaughn.jpeg";
+import daniel from "./people/daniel.jpeg";
 
 export {
   logo,
@@ -57,6 +54,7 @@ export {
   github,
   menu,
   close,
+  livelink,
   css,
   docker,
   figma,
@@ -73,16 +71,10 @@ export {
   java,
   python,
   csharp,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  unity,
   bellzi,
   capitalone,
   teabunnystudios,
-  carrent,
-  jobit,
-  tripguide,
   colada,
   sqlizer,
   blastertrainingvr,
@@ -93,5 +85,7 @@ export {
   squarepop,
   teatumble,
   rngee,
-  livelink
+  parker,
+  vaughn,
+  daniel
 };
