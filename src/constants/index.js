@@ -23,6 +23,8 @@ import {
     bellzi,
     capitalone,
     teabunnystudios,
+    shareprompt,
+    admindashboard,
     colada,
     sqlizer,
     blastertrainingvr,
@@ -207,6 +209,50 @@ const testimonials = [
 
 const projects = [
     {
+        name: "Share Prompt",
+        description:
+          "A full-stack Next JS 14 application meant for creating and sharing AI prompt snippets. Utilizes Google Auth and MongoDB, deployed with Vercel.",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "mongodb",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: shareprompt,
+        source_code_link: "https://github.com/jonhpc/share-prompt",
+        live_link: "https://share-prompt-steel.vercel.app/"
+    },
+    {
+        name: "Admin Dashboard",
+        description:
+          "An admin dashboard with drag and drop capabilities made with TypeScript, GraphQL, and Ant Design. Uses the Refine framework and deployed with Netlify. ",
+        tags: [
+            {
+                name: "typescript",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "graphql",
+                color: "green-text-gradient",
+            },
+            {
+                name: "antd",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: admindashboard,
+        source_code_link: "https://github.com/jonhpc/admin-dashboard",
+        live_link: "https://jonathanchen-admin-dashboard.netlify.app/"
+    },
+    {
         name: "Colada",
         description:
           "A Chrome extension that enables time-travel debugging for Pinia, Vue's official state management library, to increase developer experience and efficiency.",
@@ -228,68 +274,68 @@ const projects = [
         source_code_link: "https://github.com/orgs/team-colada/repositories",
         live_link: "https://colada.dev"
     },
-    {
-        name: "SQLizer",
-        description:
-          "A semantic management tool for SQL that allows organizations to store and share frequently used SQL queries across teams.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "postgresql",
-                color: "green-text-gradient",
-            },
-            {
-                name: "sass",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: sqlizer,
-        source_code_link: "https://github.com/SQLizr/SQLizr",
-        live_link: ""
-    },
-    {
-        name: "Octolog",
-        description:
-          "A scuba diving stat tracker and visualizer.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "postgresql",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: octolog,
-        source_code_link: "https://github.com/JonHPC/octolog",
-        live_link: ""
-    },
-    {
-        name: "Blaster Training VR",
-        description:
-          "A simple VR blaster game inspired by the gameplay of the classic arcade game 'Police Trainer'",
-        tags: [
-            {
-                name: "csharp",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "unity",
-                color: "green-text-gradient",
-            },
-        ],
-        image: blastertrainingvr,
-        source_code_link: "",
-        live_link: ""
-    },
+    // {
+    //     name: "SQLizer",
+    //     description:
+    //       "A semantic management tool for SQL that allows organizations to store and share frequently used SQL queries across teams.",
+    //     tags: [
+    //         {
+    //             name: "react",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "postgresql",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "sass",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: sqlizer,
+    //     source_code_link: "https://github.com/SQLizr/SQLizr",
+    //     live_link: ""
+    // },
+    // {
+    //     name: "Octolog",
+    //     description:
+    //       "A scuba diving stat tracker and visualizer.",
+    //     tags: [
+    //         {
+    //             name: "react",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "postgresql",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "scss",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: octolog,
+    //     source_code_link: "https://github.com/JonHPC/octolog",
+    //     live_link: ""
+    // },
+    // {
+    //     name: "Blaster Training VR",
+    //     description:
+    //       "A simple VR blaster game inspired by the gameplay of the classic arcade game 'Police Trainer'",
+    //     tags: [
+    //         {
+    //             name: "csharp",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "unity",
+    //             color: "green-text-gradient",
+    //         },
+    //     ],
+    //     image: blastertrainingvr,
+    //     source_code_link: "",
+    //     live_link: ""
+    // },
     {
         name: "Nanobiotics",
         description:
@@ -362,42 +408,42 @@ const projects = [
     //     source_code_link: "https://github.com/JonHPC/calculator",
     //     live_link: "https://jonhpc.github.io/calculator/"
     // },
-    {
-        name: "Etch a Sketch",
-        description:
-          "A toy 'Etch-a-Sketch'",
-        tags: [
-            {
-                name: "javascript",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: etchasketch,
-        source_code_link: "https://github.com/JonHPC/etch-a-sketch",
-        live_link: "https://jonhpc.github.io/etch-a-sketch/"
-    },
-    {
-        name: "Rngee",
-        description:
-          "A simple library for generating random values",
-        tags: [
-            {
-                name: "javascript",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "npm",
-                color: "green-text-gradient",
-            },
-        ],
-        image: rngee,
-        source_code_link: "https://github.com/JonHPC/rngee",
-        live_link: "https://www.npmjs.com/package/rngee"
-    },
+    // {
+    //     name: "Etch a Sketch",
+    //     description:
+    //       "A toy 'Etch-a-Sketch'",
+    //     tags: [
+    //         {
+    //             name: "javascript",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "css",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: etchasketch,
+    //     source_code_link: "https://github.com/JonHPC/etch-a-sketch",
+    //     live_link: "https://jonhpc.github.io/etch-a-sketch/"
+    // },
+    // {
+    //     name: "Rngee",
+    //     description:
+    //       "A simple library for generating random values",
+    //     tags: [
+    //         {
+    //             name: "javascript",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "npm",
+    //             color: "green-text-gradient",
+    //         },
+    //     ],
+    //     image: rngee,
+    //     source_code_link: "https://github.com/JonHPC/rngee",
+    //     live_link: "https://www.npmjs.com/package/rngee"
+    // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

@@ -30,6 +30,8 @@ import bellzi from "./company/bellzi.jpg";
 import capitalone from "./company/capitalone.png";
 import teabunnystudios from "./company/teabunnystudios.jpg";
 
+import shareprompt from "./work/share_prompt.png";
+import admindashboard from "./work/admin_dashboard.png";
 import colada from "./work/colada.gif";
 import sqlizer from "./work/sqlizer.gif"
 import blastertrainingvr from "./work/blaster_training_vr.gif"
@@ -75,6 +77,8 @@ export {
   bellzi,
   capitalone,
   teabunnystudios,
+  shareprompt,
+  admindashboard,
   colada,
   sqlizer,
   blastertrainingvr,
